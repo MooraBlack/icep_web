@@ -1,6 +1,6 @@
- .conatainer{
+ /* .i-container{
    display: flex;
- }
+ } */
  .carousel-item{
   height: 90vh;
 } 
@@ -34,10 +34,6 @@ ul {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li {
-  align-items: flex-end;
-}
-
 .col ul li a{
   margin-top: 10px;
 }
@@ -55,13 +51,15 @@ li a:hover {
   color: white;
   text-shadow: 0px 0px 10px  white;
 }
+
+
 h3{
   color: black;
 }
 p{
   color: black;
 }
-
+/* Footer Stuff */
 footer{
   background-color: #333;
   color: white;
