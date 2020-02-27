@@ -19,7 +19,7 @@
   flex: 3;
   margin-left: 10px;
 }
-.col{
+.col-items2{
   flex: 1;
   display: flex;
 }
@@ -34,7 +34,7 @@ ul {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.col ul li a{
+.col-items2 ul li a{
   margin-top: 10px;
 }
 
