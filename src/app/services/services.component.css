@@ -15,7 +15,6 @@ body
 {
 width: 100%;
 height:100%;
-/* background-image: url(/assets/pictures/ICEP-Logo.png); */
 background-position: center;
 background-repeat: no_repeat;
 background-size: cover;
@@ -36,18 +35,11 @@ font-family: Montserrat;
   border-bottom: 1px solid rgba(255,255,255,0.5);
   background-color: grey;
 }
+.wrapper{
+  position: fixed;
+}
 
-/* .logo
-{
-    letter-spacing: 1px;
-    float: left;
-    color: black;
-    font-size: 16px;
-    line-height: 50px;
-    padding-left: 100px;
-    padding-right: 600px;
-   
-} */
+
 .menu{
     float: right;
     line-height: 50px;
