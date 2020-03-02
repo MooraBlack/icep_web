@@ -1,18 +1,27 @@
+.carousel-item{
+  height: 90vh;
+} 
+
+.carousel-item img{
+  background-position-x: center;
+}
 .nav{
   display: fixed;
   width: 100%;
+  height: 10vh;
 }
+
 .nav-row
 {
   display: flex ;
-  background-color:  #333;
+  background-color:  lightslategrey;
   width: 100%;
 } 
 .col-item{
   flex: 3;
   margin-left: 10px;
 }
-.col{
+.col-items2{
   flex: 1;
   display: flex;
 }
@@ -22,14 +31,15 @@ ul {
   margin:0;
   padding: 0;
   overflow: auto;
-  background-color: #333;
+  background-color: lightslategrey;
   display: flex;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.col ul li a{
+.col-items2 ul li a{
   margin-top: 10px;
 }
+
 
 li a {
   display: block;
@@ -37,10 +47,19 @@ li a {
   text-align: center;
   text-decoration: none;
 }
+
 li a:hover {
   /* background-color: honeydew; */
   color: white;
   text-shadow: 0px 0px 10px  white;
+}
+
+
+h3{
+  color: black;
+}
+p{
+  color: black;
 }
 
 
@@ -49,7 +68,7 @@ li a:hover {
 
 /* Footer Stuff */
 footer{
-  background-color: #333;
+  background-color: lightslategrey;
   color: white;
 }
 footer a{
