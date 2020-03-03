@@ -172,14 +172,13 @@ font-family: Montserrat;
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
+    padding: 0px;
   }
   
   /* Create two columns that float next to eachother */
   .column {
     float: left;
-    width: 50%;
+    width: 100%;
     margin-top: 6px;
     padding: 20px;
   }
