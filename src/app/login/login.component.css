@@ -1,4 +1,8 @@
-.senepe{
-   
-    width: 200px;
+
+.modal-header{
+    background-color: lightslategrey;
+}
+.btn{
+    background-color: lightslategrey;
+    color: white;
 }
