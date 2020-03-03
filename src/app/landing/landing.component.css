@@ -51,8 +51,8 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  /* background-color: honeydew; */
+.col-items2 li a:hover {
+  background-color: rgb(132, 155, 178);;
   color: white;
   text-shadow: 0px 0px 10px  white;
 }
