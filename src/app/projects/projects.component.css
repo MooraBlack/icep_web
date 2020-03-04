@@ -128,6 +128,60 @@ footer a{
 }
 
 
+
+
+
+.col4{
+  flex: 1;
+  text-align: center;
+  background-color: white;
+ 
+}
+.col4 p{
+  color: black;
+}
+.col4 h3{
+  color: white;
+}
+
+.col4:hover{
+  background-color: rgb(132, 155, 178);
+}
+
+.col5{
+  padding-top: 10px;
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  
+}
+.col5 p{
+  color: black;
+}
+.col5 h3{
+  color: white;
+}
+.col5:hover{
+  background-color:rgb(132, 155, 178);
+}
+
+.col6{
+  flex: 1;
+  text-align: center;
+  background-color: white;
+
+}
+.col6 p{
+  color: black;
+}
+.col6 h3{
+  color: white;
+}
+.col6:hover{
+  background-color:rgb(132, 155, 178);
+}
+
+
 .col-item{
   flex: 3;
   margin-left: 10px;
