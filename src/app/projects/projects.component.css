@@ -33,7 +33,7 @@ ul {
   overflow: auto;
   background-color: lightslategrey;
   display: flex;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .col-items2 ul li a{
@@ -56,14 +56,114 @@ li a:hover {
 
 
 h3{
-  color: black;
+  color: blue;
 }
 p{
   color: black;
 }
 
 
+.projectx{
+  height: 95vh;
+}
 
+div.gallery {
+  margin: 2px;
+  border: 0.5px solid #ccc;
+  float: inherit;
+  width: 320px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* section  */
+
+.row-sec{
+  display: flex;
+ 
+}
+
+.mentor{
+  width: 30vh;
+  height: 30vh;
+}
+
+.col1{
+  flex: 1;
+  text-align: center;
+}
+.col1 p{
+  color: rgb(57, 11, 117);
+}
+
+.col1:hover{
+  background-color: rgb(104, 136, 168);
+}
+
+.col2{
+  padding-top: 10px;
+  flex: 1;
+  text-align: center;
+}
+.col2 p{
+  color: rgba(27, 9, 126, 0.692);
+}
+
+.col2:hover{
+  background-color:rgb(113, 140, 167);
+}
+.col3{
+  flex: 1;
+  text-align: center;
+}
+.col3 p{
+  color: rgb(31, 6, 88);
+}
+.col3 h3{
+  color: white;
+}
+.col3:hover{
+  background-color:rgb(132, 155, 178);
+}
 
 
 /* Footer Stuff */
