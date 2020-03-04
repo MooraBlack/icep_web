@@ -92,20 +92,14 @@ p{
 }
 
 .h3{
-
   text-align: center;
 }
 
 
-    footer {
-      background-color: white;
-      padding: 25px;
-    }
-
-    .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      min-height: 200px;
-    }
+.carousel-inner img {
+   width: 100%; /* Set width to 100% */
+   min-height: 200px;
+}
 
     /* Hide the carousel text when the screen is less than 600 pixels wide */
     @media (max-width: 600px) {
@@ -176,7 +170,7 @@ p{
       margin-top: 0;
     }
   }
-=======
+
 /* Footer Stuff */
 footer{
   background-color: lightslategrey;

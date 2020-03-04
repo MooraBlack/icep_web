@@ -66,8 +66,13 @@ p{
 
 
  .infor{
-   padding-left: 50px;
-   padding-top: 150px;
+   /* padding-left: 50px; */
+   padding-top: 50px; 
+ }
+ .inforX{
+  padding-top: 10px; 
+  padding-left: 50px;
+  padding-right: 50px;
  }
 
  .iframe-container{
@@ -84,97 +89,37 @@ p{
   height: 100%;
 }
 
-.h3{
+.mapouter{
+  align-items: center;
+  width: 100%;
+}
 
+.h3{
   text-align: center;
 }
 
 
-    footer {
-      background-color: white;
-      padding: 25px;
-    }
-
-    .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      min-height: 200px;
-    }
+.carousel-inner img {
+   width: 100%; /* Set width to 100% */
+  min-height: 200px;
+ }
 
     /* Hide the carousel text when the screen is less than 600 pixels wide */
-    @media (max-width: 600px) {
-      .carousel-caption {
-        display: none; 
-      }
-    }
+ @media (max-width: 600px) 
+ {
+ .carousel-caption {
+    display: none; 
+   }
 
-    h2{
-      text-align:center;
-      padding: 20px;
-    }
+}
 
-     /* .i-container{
-   display: flex;
- } */
- .carousel-item{
-    height: 40vh;
-  } 
-  .nav{
-    display: fixed;
-    width: 100%;
-  }
-  
-  .nav-row
-  {
-    display: flex ;
-    background-color:  #333;
-    width: 100%;
-  } 
-  .col-item{
-    flex: 3;
-    margin-left: 10px;
-  }
-  .col-items2{
-    flex: 1;
-    display: flex;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-    overflow: auto;
-    background-color: #333;
-    display: flex;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .col-items2 ul li a{
-    margin-top: 10px;
-  }
-  
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    /* background-color: honeydew; */
-    color: white;
-    text-shadow: 0px 0px 10px  white;
-  }
-  
-  
-  h3{
-    color: black;
-  }
-  p{
-    color: black;
-  }
+h2{
+  text-align:center;
+  padding: 20px;
+}
+
+    
    
-=======
 /* Footer Stuff */
 footer{
   background-color: lightslategrey;
