@@ -1,90 +1,69 @@
-.senepe
-{
-    padding-right: 700px;
+.carousel-item{
+  height: 90vh;
+} 
+
+.carousel-item img{
+  background-position-x: center;
+}
+.nav{
+  display: fixed;
+  width: 100%;
+  height: 10vh;
 }
 
-html,body
+.nav-row
 {
-margin:0;
-padding:0;
-width:0;
+  display: flex ;
+  background-color:  lightslategrey;
+  width: 100%;
+} 
+.col-item{
+  flex: 3;
+  margin-left: 10px;
+}
+.col-items2{
+  flex: 1;
+  display: flex;
 }
 
-
-body
-{
-width: 100%;
-height:100%;
-/* background-image: url(/assets/pictures/ICEP-Logo.png); */
-background-position: center;
-background-repeat: no_repeat;
-background-size: cover;
-display: table;
-font-family: Montserrat;
-}
-
-
-.nav
-{
-  position: fixed;
-  top: 0;
-  left: 0;
+ul {
+  list-style-type: none;
   margin:0;
-  padding:0;
-  width:100%;  
-  height: 70px;
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-  background-color: grey;
+  padding: 0;
+  overflow: auto;
+  background-color: lightslategrey;
+  display: flex;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* .logo
-{
-    letter-spacing: 1px;
-    float: left;
-    color: black;
-    font-size: 16px;
-    line-height: 50px;
-    padding-left: 100px;
-    padding-right: 600px;
-   
-} */
-.menu{
-    float: right;
-    line-height: 50px;
- }
- 
+.col-items2 ul li a{
+  margin-top: 10px;
+}
 
- .menu ul li
- {
-  display: inline-block;
- }
 
- .menu ul li a
- {
-   text-decoration: none;
-   color: white;
-   font-size:16px;
-   font-weight: lighter;
- }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.col-items2 li a:hover {
+  background-color: rgb(132, 155, 178);;
+  color: white;
+  text-shadow: 0px 0px 10px  white;
+}
+
+
+h3{
+  color: black;
+}
+p{
+  color: black;
+}
 
 
 
- .header
- {
-     position:absolute;
-     top:50%;
-     left:50%;
-     transform:translate(-50%, -50%);
-     text-align: center;
- }
-
- .header h1
- {
-    color: black;
-    font-size: 20px;
-    font-weight:800;
-    margin-bottom: 3px;
- }
 
  .header p
  {
@@ -197,3 +176,13 @@ font-family: Montserrat;
       margin-top: 0;
     }
   }
+=======
+/* Footer Stuff */
+footer{
+  background-color: lightslategrey;
+  color: white;
+}
+footer a{
+  color: white;
+}
+
