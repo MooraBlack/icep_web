@@ -130,10 +130,16 @@ p{
 }
 
 /* Leaders */
-
-  /* img {
+.row-3{
+  display: flex;
+}
+  .row-3 img {
+    padding-top: 20px;
     border-radius: 50%;
-  } */
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
 
 /* End Leaders */
 
@@ -146,7 +152,7 @@ footer a{
   color: white;
 }
 
-
+/*End Footer Stuff */
 
 
 
@@ -161,12 +167,12 @@ section{
 
 .mar{
   color:white;
-  padding-left: 200px;
+  padding-left: 480px;
 }
 
 .mar2{
   color:white;
-  padding-left: 280px;
+  padding-left: 690px;
   size: 50px;
   
 }
