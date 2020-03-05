@@ -142,3 +142,33 @@ footer{
 footer a{
   color: white;
 }
+
+
+
+
+
+
+section{
+  background-color: #292929;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  
+}
+
+.mar{
+  color:white;
+  padding-left: 200px;
+}
+
+.mar2{
+  color:white;
+  padding-left: 280px;
+  size: 50px;
+  
+}
+
+.aw{
+  text-align: center;
+}
+
