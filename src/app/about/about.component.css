@@ -68,13 +68,19 @@ p{
 
 
  .infor{
-   /* padding-left: 50px; */
+    /*padding-left: 50px; */
    padding-top: 50px; 
  }
  .inforX{
   padding-top: 10px; 
   padding-left: 50px;
   padding-right: 50px;
+ }
+
+ .inforX p
+ {
+  text-align: center;
+  background-color: aqua;
  }
 
  .iframe-container{
