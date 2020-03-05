@@ -20,6 +20,17 @@
   background-color:  lightslategrey;
   width: 100%;
 } 
+
+/* .nav-row{
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to left, 
+      lightslategrey, 
+      rgb(101, 119, 137)
+    ) 1 100%;
+} */
+
 .col-item{
   flex: 3;
   margin-left: 10px;

@@ -1,3 +1,7 @@
+.i-container{
+  background-color: rgba(114, 115, 116, 0.503);
+}
+
 .carousel-item{
   height: 90vh;
 } 
