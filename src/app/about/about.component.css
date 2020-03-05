@@ -64,7 +64,15 @@ p{
   color: black;
 }
 
+/* Subject Head */
 
+.Sbj-head{
+  background-color: lightslategrey;
+  color: white;
+
+}
+
+/* Subject Head End */
 
 
  .infor{
@@ -80,7 +88,6 @@ p{
  .inforX p
  {
   text-align: center;
-  background-color: aqua;
  }
 
  .iframe-container{
