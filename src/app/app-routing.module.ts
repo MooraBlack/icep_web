@@ -9,6 +9,7 @@ import {PartnersComponent} from './partners/partners.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ApplicationComponent } from './application/application.component';
+import{ReportComponent} from './report/report.component';
 
 const routes: Routes = [
   {path:'landing', component: LandingComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'register', component: RegisterComponent },
   {path:'login', component: LoginComponent },
   {path:'application', component: ApplicationComponent },
-  {path:'',redirectTo:'landing', pathMatch:'full'}
+  {path:'',redirectTo:'landing', pathMatch:'full'},
+  {path:'report', component:ReportComponent}
 
 ];
 @NgModule({
