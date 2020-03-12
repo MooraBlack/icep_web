@@ -1,0 +1,12 @@
+/* .container
+{
+    background-image:url(/assets/pictures/ICEP\ LOGO.jpg) ;
+} */
+ body
+{
+    background: darkslategrey;
+} 
+
+.modal-header{
+    background-color: lightslategrey;
+  }

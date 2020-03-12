@@ -9,6 +9,8 @@ import {PartnersComponent} from './partners/partners.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ApplicationComponent } from './application/application.component';
+import {UserDashComponent } from './user-dash/user-dash.component';
+import {ProfileComponent } from  './profile/profile.component';
 
 const routes: Routes = [
   {path:'landing', component: LandingComponent},
@@ -17,8 +19,10 @@ const routes: Routes = [
   {path:'projects',component:ProjectsComponent},
   {path:'contacts',component:ContactsComponent},
   {path:'partners',component:PartnersComponent},
+  {path: 'userDash',component:UserDashComponent},
   {path:'register', component: RegisterComponent },
   {path:'login', component: LoginComponent },
+  {path: 'profile',component:ProfileComponent },
   {path:'application', component: ApplicationComponent },
   {path:'',redirectTo:'landing', pathMatch:'full'}
 
