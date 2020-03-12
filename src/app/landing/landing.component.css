@@ -189,3 +189,9 @@ section{
   text-align: center;
 }
 
+
+
+ .module {
+    position: relative;
+    font-size: 24px;
+}
