@@ -37,6 +37,7 @@ import { LogbookComponent } from './logbook/logbook.component';
     UserDashComponent,
     ProfileComponent,
     LogbookComponent
+
   ],
   imports: [
     BrowserModule,

@@ -25,7 +25,7 @@ const routes: Routes = [
   {path: 'profile',component:ProfileComponent },
   {path:'application', component: ApplicationComponent },
   {path:'',redirectTo:'landing', pathMatch:'full'}
-
+ 
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
