@@ -13,6 +13,9 @@ import { PartnersComponent } from './partners/partners.component';
 import { RegisterComponent } from './register/register.component';
 import { ApplicationComponent } from './application/application.component';
 import { LoginComponent } from './login/login.component';
+import { UserDashComponent } from './user-dash/user-dash.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LogbookComponent } from './logbook/logbook.component';
 
 
 
@@ -31,6 +34,10 @@ import { LoginComponent } from './login/login.component';
     RegisterComponent,
     ApplicationComponent,
     LoginComponent,
+    UserDashComponent,
+    ProfileComponent,
+    LogbookComponent
+
   ],
   imports: [
     BrowserModule,
