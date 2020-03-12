@@ -12,9 +12,9 @@ export class UserDashComponent implements OnInit {
   ngOnInit() {
   }
   
- toggleSidebar()
-{
-   document.getElementById("sidebar").classList.toggle('active');
-}
+//  toggleSidebar()
+// {
+//    document.getElementById("sidebar").classList.toggle('active');
+// }
 
 }

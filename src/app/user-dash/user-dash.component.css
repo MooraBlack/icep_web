@@ -62,6 +62,10 @@
    color:cornsilk;
  }
 
+
+
+
+ /* Sidebar Start */
 #sidebar
 {
     position: fixed;
@@ -99,3 +103,4 @@
     background:#151719;
     margin: 5px 0px;
 } 
+/* Sidebar ends here... */
