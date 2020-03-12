@@ -30,7 +30,7 @@ import { LoginComponent } from './login/login.component';
     PartnersComponent,
     RegisterComponent,
     ApplicationComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

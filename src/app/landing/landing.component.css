@@ -143,6 +143,14 @@ p{
 
 /* End Leaders */
 
+/* Notice board */
+  .rowX{
+    display: flex;
+    padding-bottom: 30px;
+  }
+
+/*  Notice board  End */
+
 /* Footer Stuff */
 footer{
   background-color: lightslategrey;
