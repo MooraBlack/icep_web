@@ -11,6 +11,7 @@ export class UsersService {
 
   
   app_url = 'http://10.2.39.217:5000/application';
+  register_Url = 'http               ://10.2.39.217:5000:5000/register';
 
   constructor(private http: HttpClient) { }
 
@@ -19,4 +20,9 @@ export class UsersService {
     {
       return this.http.post<any>(this.app_url, application, {});
     }
-}
+
+    public registerUser(user)
+    {
+      return this.http.post<any>(this.register_Url, user, {});
+    }
+  }

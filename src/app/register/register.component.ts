@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {UsersService} from './../users.service';
 
 @Component({
@@ -11,7 +11,12 @@ export class RegisterComponent implements OnInit {
   // @Input() applyData = {
   //   fname: " ", lname: " ", email: " ", pword: " ", pword2: " "
   // } 
-  constructor() { }
+  
+    @Input() registerData = {
+        first_name: " ", last_name: " ", phone_no: " ", email: " ", password: " " 
+    }
+
+  constructor(private userService: UsersService) { }
   // private users_Service: UsersService
   ngOnInit() {
   
@@ -27,5 +32,12 @@ export class RegisterComponent implements OnInit {
   //     console.log(this.applyData.pword);
   //     console.log(this.applyData.pword2);
   // }
+
+    registerUser()
+    {
+      this.userService.registerUser(this.registerData).subscribe( data =>
+        console.log(this.registerData));
+        console.error;
+    }
 
 }
